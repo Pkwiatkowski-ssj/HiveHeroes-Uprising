@@ -1,0 +1,9 @@
+LOTR Easter Egg - Design Notes
+
+- Trigger: Player must collect the special ring item in the Volcano region.
+- Behavior: When 10 seconds into the Volcano Region, the ring changes enemy behavior and event occurs.
+- Sauron Eye NPC: Appears in the Volcano map, follows the player and gets destroyed when the ring is destroyed.
+- Ending: Player must Press E at the volcano during event to destroy the ring and event ends.
+
+Future ideas:
+-TBD
