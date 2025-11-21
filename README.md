@@ -1,35 +1,76 @@
-# Hive Heroes - Uprising 
+H I V E   H E R O E S
+        U P R I S I N G
+===============================================================
 
-_A personal continuation of the original Hive Heroes project._
+Hive Heroes: Uprising is a personal continuation of the original Hive Heroes game created during SER225. 
+The class version is complete and stands on its own. 
+This repo exists so I can keep learning, experimenting, and pushing myself as a developer by building on top of something I enjoyed working on.
+
+This project lets me:
+- try out new ideas  
+- clean up or reorganize systems  
+- explore new mechanics  
+- test enemy behavior changes  
+- redesign maps  
+- expand the lore  
+- and basically see how far I can take the game on my own
+
+---------------------------------------------------------------
 
 ## Overview
 
-Hive Heroes: Uprising is a top-down 2D action-adventure game where you play as a lone bee fighting through corrupted regions of the hive. 
-What starts as a simple nectar-collection mission turns into a confrontation with a power-obsessed Queen and the ruins she left behind.
+Hive Heroes: Uprising is a 2D top-down action game built in Java using a custom engine. 
+It keeps the core idea of navigating through damaged regions of the hive while uncovering the truth behind the Queen’s intentions.
 
-This repo is my personal version of the game after the class project was completed. 
-Here I’ll be:
-- Refactoring code
-- Adding new mechanics
-- Tweaking combat and horde behavior
-- Expanding lore (including the LOTR-inspired Easter egg 👀)
+This repo gives me the freedom to test features that didn’t fit in the class timeline and explore areas I want to develop further.
 
-## Tech
+---------------------------------------------------------------
 
-- Language: Java
-- Style: 2D tile-based, custom engine
-- Features:
-  - Multiple regions (Grass, Volcano, Frost, Hive, Maze, etc.)
-  - Enemy types (Spiders, Goblins, Crabs, Frost Dragons, Bats)
-  - Power-ups (tunics, projectiles, stamina/health, Easter eggs)
+## Current Features
 
-## Development Workflow
+- Multiple regions: Grasslands, Volcano, Frost, Hive interior, Maze  
+- Enemy types: spiders, goblins, crabs, frost dragons, bats  
+- Stamina, health, XP, melee + projectile combat  
+- Tunics and power-ups (fire, frost, speed, shield)  
+- Horde mode behavior  
+- Dialogue system and NPC interactions  
+- Hidden secrets  
+- LOTR-inspired easter egg  
 
-Even though I’m solo on this repo, I’m using a proper workflow:
-
-- `feature/*` branches – experiments, new mechanics, refactors
-- Changes merged via Pull Requests only (no direct pushes to `master`)
+---------------------------------------------------------------
 
 ## LOTR Easter Egg
 
-See `lotr_easter_egg_notes.txt` for design notes and hints about the hidden Lord of the Rings–inspired content.
+See `lotr_easter_egg_notes.txt` for all design notes, ideas, and logic behind the Lord of the Rings–themed content
+
+---------------------------------------------------------------
+
+## Development Workflow
+
+Even though this repo is solo, I’m using a structured workflow to keep things clean:
+
+**Branch approach:**
+
+- `main` – stable builds only  
+- `feature/*` – all new work, changes, and experiments  
+
+All updates go through Pull Requests before merging into `main`.
+
+---------------------------------------------------------------
+
+## Roadmap
+
+General areas I plan to improve or explore:
+
+TBD
+
+---------------------------------------------------------------
+
+## Tech
+
+- Java  
+- Custom SER225 engine  
+- 2D pixel art  
+- VS Code, Git, Piskel, Paint.NET  
+
+This repo is meant to be a clean environment where I can develop freely, break things, fix them, and continue learning as I build out Hive Heroes in my own time.
